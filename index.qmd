@@ -11,7 +11,9 @@ The management of subfertile couples, including IVF/ICSI, involves a spectrum of
 
 Inadequate knowledge of the best available research evidence can lead to unnecessary procedures, patient distress, increased healthcare costs, and possible avoidable complications. This can have negative repercussions on healthcare quality and equity, particularly in Low and Middle Income Countries [@albarqouni2023]
 
-Several tests and interventions used in the course of management of  infertility are discouraged by several international evidence-based guidelines issued by professional association such as ESHRE and ASRM. [@goodpra2023; @intracyt2020] Assessing gynecologists’ knowledge of such practices helps design targeted de-implementation strategies and continuing medical education.
+Several tests and interventions used in the course of management of  infertility are discouraged by several international evidence-based guidelines issued by professional association such as ESHRE and ASRM. [@goodpra2023; @intracyt2020]
+
+Assessing gynecologists’ knowledge of such practices helps design targeted de-implementation strategies and continuing medical education.
 
 ## Objectives
 
