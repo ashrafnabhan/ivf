@@ -1,5 +1,6 @@
 project:
   type: manuscript
+  output-dir: docs
 
 manuscript:
   article: index.qmd
@@ -9,7 +10,6 @@ format:
     comments:
       hypothesis: true
   docx: default
-  jats: default
   pdf: default
 
 execute:
