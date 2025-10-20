@@ -20,7 +20,27 @@ ul.task-list li input[type="checkbox"] {
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
 }
-</style>
+/* CSS for citations */
+div.csl-bib-body { }
+div.csl-entry {
+  clear: both;
+  margin-bottom: 0em;
+}
+.hanging-indent div.csl-entry {
+  margin-left:2em;
+  text-indent:-2em;
+}
+div.csl-left-margin {
+  min-width:2em;
+  float:left;
+}
+div.csl-right-inline {
+  margin-left:2em;
+  padding-left:1em;
+}
+div.csl-indent {
+  margin-left: 2em;
+}</style>
 
 
 <script src="site_libs/clipboard/clipboard.min.js"></script>
@@ -46,6 +66,12 @@ ul.task-list li input[type="checkbox"] {
 <meta name="citation_title" content="Gynecologists’ Knowledge of Non-Recommended Infertility Practices: A cross-sectional e-survey protocol">
 <meta name="citation_language" content="en">
 <meta name="citation_reference" content="citation_title=Literate programming;,citation_author=Donald E. Knuth;,citation_publication_date=1984-05;,citation_cover_date=1984-05;,citation_year=1984;,citation_fulltext_html_url=https://doi.org/10.1093/comjnl/27.2.97;,citation_issue=2;,citation_doi=10.1093/comjnl/27.2.97;,citation_issn=0010-4620;,citation_volume=27;,citation_journal_title=Comput. J.;,citation_publisher=Oxford University Press, Inc.;">
+<meta name="citation_reference" content="citation_title=R: A language and environment for statistical computing;,citation_author=R Core Team undefined;,citation_publication_date=2025;,citation_cover_date=2025;,citation_year=2025;,citation_fulltext_html_url=https://www.R-project.org/;">
+<meta name="citation_reference" content="citation_title=Good practice recommendations on add-ons in reproductive medicine;,citation_author=K Lundin;,citation_author=J G Bentzen;,citation_author=G Bozdag;,citation_author=T Ebner;,citation_author=J Harper;,citation_author=N Le Clef;,citation_author=A Moffett;,citation_author=S Norcross;,citation_author=N P Polyzos;,citation_author=S Rautakallio-Hokkanen;,citation_author=I Sfontouris;,citation_author=K Sermon;,citation_author=N Vermeulen;,citation_author=A Pinborg;,citation_publication_date=2023-09-25;,citation_cover_date=2023-09-25;,citation_year=2023;,citation_fulltext_html_url=http://dx.doi.org/10.1093/humrep/dead184;,citation_issue=11;,citation_doi=10.1093/humrep/dead184;,citation_volume=38;,citation_language=en;,citation_journal_title=Human Reproduction;">
+<meta name="citation_reference" content="citation_title=Intracytoplasmic sperm injection (ICSI) for nonmale factor indications: a committee opinion;,citation_publication_date=2020-08;,citation_cover_date=2020-08;,citation_year=2020;,citation_fulltext_html_url=http://dx.doi.org/10.1016/j.fertnstert.2020.05.032;,citation_issue=2;,citation_doi=10.1016/j.fertnstert.2020.05.032;,citation_volume=114;,citation_language=en;,citation_journal_title=Fertility and Sterility;">
+<meta name="citation_reference" content="citation_title=Improving the Quality of Web Surveys: The Checklist for Reporting Results of Internet E-Surveys (CHERRIES);,citation_author=Gunther Eysenbach;,citation_publication_date=2004-09-29;,citation_cover_date=2004-09-29;,citation_year=2004;,citation_fulltext_html_url=http://dx.doi.org/10.2196/jmir.6.3.e34;,citation_issue=3;,citation_doi=10.2196/jmir.6.3.e34;,citation_volume=6;,citation_language=en;,citation_journal_title=Journal of Medical Internet Research;">
+<meta name="citation_reference" content="citation_title=Low-Value Surgical Procedures in Low- and Middle-Income Countries;,citation_author=Loai Albarqouni;,citation_author=Eman Abukmail;,citation_author=Majdeddin MohammedAli;,citation_author=Sewar Elejla;,citation_author=Mohamed Abuelazm;,citation_author=Hosam Shaikhkhalil;,citation_author=Thanya Pathirana;,citation_author=Sujeewa Palagama;,citation_author=Emmanuel Effa;,citation_author=Eleanor Ochodo;,citation_author=Eulade Rugengamanzi;,citation_author=Yousef AlSabaa;,citation_author=Ale Ingabire;,citation_author=Francis Riwa;,citation_author=Burhan Goraya;,citation_author=Mina Bakhit;,citation_author=Justin Clark;,citation_author=Morteza Arab-Zozani;,citation_author=Suzanna Alves da Silva;,citation_author=C. S. Pramesh;,citation_author=Verna Vanderpuye;,citation_author=Eddy Lang;,citation_author=Deborah Korenstein;,citation_author=Karen Born;,citation_author=Stephen Tabiri;,citation_author=Adesoji Ademuyiwa;,citation_author=Ashraf Nabhan;,citation_author=Ray Moynihan;,citation_publication_date=2023-11-07;,citation_cover_date=2023-11-07;,citation_year=2023;,citation_fulltext_html_url=http://dx.doi.org/10.1001/jamanetworkopen.2023.42215;,citation_issue=11;,citation_doi=10.1001/jamanetworkopen.2023.42215;,citation_volume=6;,citation_language=en;,citation_journal_title=JAMA Network Open;">
+<meta name="citation_reference" content="citation_title=Evaluating interventions and adjuncts to optimize pregnancy outcomes in subfertile women: an overview review;,citation_author=Ashleigh Holt-Kentwell;,citation_author=Jayasish Ghosh;,citation_author=Adam Devall;,citation_author=Arri Coomarasamy;,citation_author=Rima K Dhillon-Smith;,citation_publication_date=2022-02-08;,citation_cover_date=2022-02-08;,citation_year=2022;,citation_fulltext_html_url=http://dx.doi.org/10.1093/humupd/dmac001;,citation_issue=4;,citation_doi=10.1093/humupd/dmac001;,citation_volume=28;,citation_language=en;,citation_journal_title=Human Reproduction Update;">
 </head>
 
 <body class="quarto-light">
@@ -118,9 +144,9 @@ ul.task-list li input[type="checkbox"] {
 <h1>Study Protocol</h1>
 <section id="background-and-rationale" class="level2">
 <h2 class="anchored" data-anchor-id="background-and-rationale">Background and rationale</h2>
-<p>The management of subfertile counples, including IVF/ICSI, involves a spectrum of diagnostic tests and therapeutic interventions. These pre-treatment evaluation and interventions usually require complex, resource-intensive procedures.</p>
-<p>Inadequate knowledge of the best available research evidence can lead to unnecessary procedures, patient distress, increased healthcare costs, and possible avoidable complications.</p>
-<p>Several tests and interventions used in the course of management of &nbsp;infertility are discouraged by several international evidence-based guidelines issued by professional association such as ESHRE and ASRM. Assessing gynecologists’ knowledge of such practices helps design targeted de-implementation strategies and continuing medical education.</p>
+<p>The management of subfertile couples, including IVF/ICSI, involves a spectrum of diagnostic tests and therapeutic interventions. These pre-treatment evaluation and interventions usually require complex, resource-intensive procedures. <span class="citation" data-cites="holt-kentwell2022">(<a href="#ref-holt-kentwell2022" role="doc-biblioref">Holt-Kentwell et al. 2022</a>)</span></p>
+<p>Inadequate knowledge of the best available research evidence can lead to unnecessary procedures, patient distress, increased healthcare costs, and possible avoidable complications. This can have negative repercussions on healthcare quality and equity, particularly in Low and Middle Income Countries <span class="citation" data-cites="albarqouni2023">(<a href="#ref-albarqouni2023" role="doc-biblioref">Albarqouni et al. 2023</a>)</span></p>
+<p>Several tests and interventions used in the course of management of &nbsp;infertility are discouraged by several international evidence-based guidelines issued by professional association such as ESHRE and ASRM. <span class="citation" data-cites="goodpra2023 intracyt2020">(<a href="#ref-goodpra2023" role="doc-biblioref">Lundin et al. 2023</a>; <a href="#ref-intracyt2020" role="doc-biblioref"><span>“Intracytoplasmic Sperm Injection (ICSI) for Non<span></span>male Factor Indications: A Committee Opinion”</span> 2020</a>)</span> Assessing gynecologists’ knowledge of such practices helps design targeted de-implementation strategies and continuing medical education.</p>
 </section>
 <section id="objectives" class="level2">
 <h2 class="anchored" data-anchor-id="objectives">Objectives</h2>
@@ -251,6 +277,7 @@ ul.task-list li input[type="checkbox"] {
 <ul>
 <li>Two-sided tests; p&lt;0.05 considered significant.</li>
 </ul></li>
+<li><p>Software: R v4.5 <span class="citation" data-cites="base">(<a href="#ref-base" role="doc-biblioref">2025</a>)</span></p></li>
 </ul>
 </section>
 <section id="pilot-testing" class="level2">
@@ -271,7 +298,7 @@ ul.task-list li input[type="checkbox"] {
 <h2 class="anchored" data-anchor-id="dissemination-plan">Dissemination plan</h2>
 <ul>
 <li><p>Publish in peer-reviewed journal and present at conferences.</p></li>
-<li><p>We will report the study according to the CHERRIES checklist.</p></li>
+<li><p>We will report the study according to the CHERRIES checklist. <span class="citation" data-cites="Eysenbach2004">(<a href="#ref-Eysenbach2004" role="doc-biblioref">Eysenbach 2004</a>)</span></p></li>
 </ul>
 </section>
 <section id="timeline" class="level2">
@@ -286,11 +313,31 @@ ul.task-list li input[type="checkbox"] {
 </ul>
 </section>
 </section>
-<section id="references" class="level1">
-<h1>References</h1>
+<section id="references" class="level1 unnumbered">
+
+
 </section>
 
-</main>
+<div id="quarto-appendix" class="default"><section class="quarto-appendix-contents" role="doc-bibliography" id="quarto-bibliography"><h2 class="anchored quarto-appendix-heading">References</h2><div id="refs" class="references csl-bib-body hanging-indent" data-entry-spacing="0" role="list">
+<div id="ref-albarqouni2023" class="csl-entry" role="listitem">
+Albarqouni, Loai, Eman Abukmail, Majdeddin MohammedAli, Sewar Elejla, Mohamed Abuelazm, Hosam Shaikhkhalil, Thanya Pathirana, et al. 2023. <span>“Low-Value Surgical Procedures in Low- and Middle-Income Countries.”</span> <em>JAMA Network Open</em> 6 (11): e2342215. <a href="https://doi.org/10.1001/jamanetworkopen.2023.42215">https://doi.org/10.1001/jamanetworkopen.2023.42215</a>.
+</div>
+<div id="ref-Eysenbach2004" class="csl-entry" role="listitem">
+Eysenbach, Gunther. 2004. <span>“Improving the Quality of Web Surveys: The Checklist for Reporting Results of Internet E-Surveys (CHERRIES).”</span> <em>Journal of Medical Internet Research</em> 6 (3): e34. <a href="https://doi.org/10.2196/jmir.6.3.e34">https://doi.org/10.2196/jmir.6.3.e34</a>.
+</div>
+<div id="ref-holt-kentwell2022" class="csl-entry" role="listitem">
+Holt-Kentwell, Ashleigh, Jayasish Ghosh, Adam Devall, Arri Coomarasamy, and Rima K Dhillon-Smith. 2022. <span>“Evaluating Interventions and Adjuncts to Optimize Pregnancy Outcomes in Subfertile Women: An Overview Review.”</span> <em>Human Reproduction Update</em> 28 (4): 583–600. <a href="https://doi.org/10.1093/humupd/dmac001">https://doi.org/10.1093/humupd/dmac001</a>.
+</div>
+<div id="ref-intracyt2020" class="csl-entry" role="listitem">
+<span>“Intracytoplasmic Sperm Injection (ICSI) for Non<span></span>male Factor Indications: A Committee Opinion.”</span> 2020. <em>Fertility and Sterility</em> 114 (2): 239–45. <a href="https://doi.org/10.1016/j.fertnstert.2020.05.032">https://doi.org/10.1016/j.fertnstert.2020.05.032</a>.
+</div>
+<div id="ref-goodpra2023" class="csl-entry" role="listitem">
+Lundin, K, J G Bentzen, G Bozdag, T Ebner, J Harper, N Le Clef, A Moffett, et al. 2023. <span>“Good Practice Recommendations on Add-Ons in Reproductive Medicine.”</span> <em>Human Reproduction</em> 38 (11): 2062–2104. <a href="https://doi.org/10.1093/humrep/dead184">https://doi.org/10.1093/humrep/dead184</a>.
+</div>
+<div id="ref-base" class="csl-entry" role="listitem">
+R Core Team. 2025. <span>“R: A Language and Environment for Statistical Computing.”</span> <a href="https://www.R-project.org/">https://www.R-project.org/</a>.
+</div>
+</div></section></div></main>
 <!-- /main column -->
 <script id="quarto-html-after-body" type="application/javascript">
   window.document.addEventListener("DOMContentLoaded", function (event) {

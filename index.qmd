@@ -7,11 +7,11 @@ bibliography: references.bib
 
 ## Background and rationale
 
-The management of subfertile counples, including IVF/ICSI, involves a spectrum of diagnostic tests and therapeutic interventions. These pre-treatment evaluation and interventions usually require complex, resource-intensive procedures.
+The management of subfertile couples, including IVF/ICSI, involves a spectrum of diagnostic tests and therapeutic interventions. These pre-treatment evaluation and interventions usually require complex, resource-intensive procedures. [@holt-kentwell2022]
 
-Inadequate knowledge of the best available research evidence can lead to unnecessary procedures, patient distress, increased healthcare costs, and possible avoidable complications.
+Inadequate knowledge of the best available research evidence can lead to unnecessary procedures, patient distress, increased healthcare costs, and possible avoidable complications. This can have negative repercussions on healthcare quality and equity, particularly in Low and Middle Income Countries [@albarqouni2023]
 
-Several tests and interventions used in the course of management of  infertility are discouraged by several international evidence-based guidelines issued by professional association such as ESHRE and ASRM. Assessing gynecologists’ knowledge of such practices helps design targeted de-implementation strategies and continuing medical education.
+Several tests and interventions used in the course of management of  infertility are discouraged by several international evidence-based guidelines issued by professional association such as ESHRE and ASRM. [@goodpra2023; @intracyt2020] Assessing gynecologists’ knowledge of such practices helps design targeted de-implementation strategies and continuing medical education.
 
 ## Objectives
 
@@ -151,6 +151,8 @@ You are invited to participate in a research survey about infertility tests and 
 
     -   Two-sided tests; p\<0.05 considered significant.
 
+-   Software: R v4.5 [@base]
+
 ## Pilot testing
 
 -   Pilot with 10 respondents representative of target population.
@@ -167,7 +169,7 @@ You are invited to participate in a research survey about infertility tests and 
 
 -   Publish in peer-reviewed journal and present at conferences.
 
--   We will report the study according to the CHERRIES checklist.
+-   We will report the study according to the CHERRIES checklist. [@Eysenbach2004]
 
 ## Timeline
 
