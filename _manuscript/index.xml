@@ -1,0 +1,395 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE article PUBLIC "-//NLM//DTD JATS (Z39.96) Journal Archiving
+and Interchange DTD v1.2 20190208//EN" "JATS-archivearticle1.dtd">
+<article xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:xlink="http://www.w3.org/1999/xlink" dtd-version="1.2" article-type="other">
+  <front>
+    <article-meta>
+      <title-group>
+        <article-title>Gynecologists’ knowledge of infertility practices not
+recommended by evidence-based guidelines: A cross-sectional e-survey
+protocol</article-title>
+      </title-group>
+      <history/>
+    </article-meta>
+  </front>
+  <body>
+    <sec id="study-protocol">
+      <title>Study Protocol</title>
+      <sec id="background-and-rationale">
+        <title>Background and rationale</title>
+        <p>The management of subfertile counples, including IVF/ICSI,
+    involves a spectrum of diagnostic tests and therapeutic
+    interventions. These pre-treatment evaluation and interventions
+    usually require complex, resource-intensive procedures.</p>
+        <p>Inadequate knowledge of the best available research evidence can
+    lead to unnecessary procedures, patient distress, increased
+    healthcare costs, and possible avoidable complications.</p>
+        <p>Several tests and interventions used in the course of management
+    of  infertility are discouraged by several international
+    evidence-based guidelines issued by professional association such as
+    ESHRE and ASRM. Assessing gynecologists’ knowledge of such practices
+    helps design targeted de-implementation strategies and continuing
+    medical education.</p>
+      </sec>
+      <sec id="objectives">
+        <title>Objectives</title>
+        <list list-type="bullet">
+          <list-item>
+            <p>Primary objective: estimate the proportion of practicing
+        gynecologists who correctly identify that a given test or
+        intervention is <bold>not</bold> recommended by evidence-based
+        guidelines.</p>
+          </list-item>
+          <list-item>
+            <p>Secondary objectives</p>
+            <list list-type="bullet">
+              <list-item>
+                <p>Identify physician characteristics associated with
+            adequate knowledge.</p>
+              </list-item>
+              <list-item>
+                <p>Identify perceived barriers to guideline adherence</p>
+              </list-item>
+              <list-item>
+                <p>Identify preferred educational formats.</p>
+              </list-item>
+            </list>
+          </list-item>
+        </list>
+      </sec>
+      <sec id="study-design">
+        <title>Study design</title>
+        <p>Observational, cross-sectional survey using an anonymous and open
+    e-survey. The web-based form will be distributed in December 2025
+    using the secured university MS forms.</p>
+      </sec>
+      <sec id="eligibility-criteria">
+        <title>Eligibility criteria</title>
+        <list list-type="bullet">
+          <list-item>
+            <p>Inclusion criteria</p>
+            <list list-type="bullet">
+              <list-item>
+                <p>Medical doctors currently practicing as gynecologists in
+            clinical practice in Egypt.</p>
+              </list-item>
+              <list-item>
+                <p>Agree to participate (implied consent by survey
+            completion).</p>
+              </list-item>
+            </list>
+          </list-item>
+          <list-item>
+            <p>Exclusion criteria</p>
+            <list list-type="bullet">
+              <list-item>
+                <p>Residents and house officers.</p>
+              </list-item>
+            </list>
+          </list-item>
+        </list>
+      </sec>
+      <sec id="sampling-and-recruitment">
+        <title>Sampling and recruitment</title>
+        <list list-type="bullet">
+          <list-item>
+            <p>Convenience sample</p>
+          </list-item>
+          <list-item>
+            <p>Recruitment procedure: visits to hospital departments,
+        clinics, and Infertility centers to encourage to improve
+        response rates.</p>
+          </list-item>
+        </list>
+      </sec>
+      <sec id="questionnaire-development">
+        <title>Questionnaire development</title>
+        <list list-type="bullet">
+          <list-item>
+            <p>Questionnaire sections</p>
+            <list list-type="bullet">
+              <list-item>
+                <p>Participant demographics and practice characteristics</p>
+              </list-item>
+              <list-item>
+                <p>Knowledge items about specific tests or interventions</p>
+              </list-item>
+              <list-item>
+                <p>Attitudes and barriers to guideline adherence</p>
+              </list-item>
+              <list-item>
+                <p>Sources of clinical information and preferred educational
+            formats</p>
+              </list-item>
+            </list>
+          </list-item>
+          <list-item>
+            <p>Tests and interventions</p>
+            <list list-type="bullet">
+              <list-item>
+                <p>Routinely perform preimplantation genetic testing for
+            aneuploidy screening on patients undergoing IVF</p>
+              </list-item>
+              <list-item>
+                <p>Routinely administer Progesterone for luteal phase
+            support after IVF/ICSI.</p>
+              </list-item>
+              <list-item>
+                <p>Routinely perform assisted hatching on fresh embryos
+            prior to transfer</p>
+              </list-item>
+              <list-item>
+                <p>Prescribe corticosteroids for patients undergoing IVF,
+            those with a history of recurrent implantation failure, or
+            those with recurrent pregnancy loss</p>
+              </list-item>
+              <list-item>
+                <p>Routinely perform sperm DNA fragmentation testing</p>
+              </list-item>
+              <list-item>
+                <p>Use the GnRH antagonist protocol for predicted high
+            responders.</p>
+              </list-item>
+              <list-item>
+                <p>Routinely perform Endometrial receptivity testing</p>
+              </list-item>
+              <list-item>
+                <p>Routinely perform hysteroscopy before IVF</p>
+              </list-item>
+              <list-item>
+                <p>Follow a freeze-all strategy to minimize the risk of
+            late-onset OHSS.</p>
+              </list-item>
+              <list-item>
+                <p>Prescribe IVIG for patients undergoing IVF, those with a
+            history of recurrent implantation failure, or those with
+            recurrent pregnancy loss</p>
+              </list-item>
+              <list-item>
+                <p>Prescribe leukemia inhibitory factor for patients
+            undergoing IVF, those with a history of recurrent
+            implantation failure, or those with recurrent pregnancy
+            loss</p>
+              </list-item>
+              <list-item>
+                <p>Prescribe lymphocyte immunization therapy for patients
+            undergoing IVF, those with a history of recurrent
+            implantation failure, or those with recurrent pregnancy
+            loss</p>
+              </list-item>
+              <list-item>
+                <p>Prescribe intralipid therapy for patients undergoing IVF,
+            those with a history of recurrent implantation failure, or
+            those with recurrent pregnancy loss</p>
+              </list-item>
+            </list>
+          </list-item>
+        </list>
+      </sec>
+      <sec id="pilot-and-content-validation">
+        <title>Pilot and content validation</title>
+        <list list-type="bullet">
+          <list-item>
+            <p>Draft questionnaire will be reviewed by two content experts
+        (senior gynecologists) and one methodologist for face
+        validity.</p>
+          </list-item>
+          <list-item>
+            <p>Cognitive interviews with three target respondents to ensure
+        clarity; revise accordingly.</p>
+          </list-item>
+        </list>
+      </sec>
+      <sec id="sample-size-calculation">
+        <title>Sample size calculation</title>
+        <list list-type="bullet">
+          <list-item>
+            <p>Primary outcome: proportion with correct knowledge of the
+        non-recommended practices.</p>
+          </list-item>
+          <list-item>
+            <p>Conservative default (no prior estimate): assume proportion =
+        50% (this assumption maximizes sample size). For 99% confidence
+        interval with 10% margin of error: sample size is 167. We will
+        adjust for expected nonresponse of 20%. Required invitations =
+        200</p>
+          </list-item>
+        </list>
+      </sec>
+      <sec id="data-collection-procedures">
+        <title>Data collection procedures</title>
+        <list list-type="bullet">
+          <list-item>
+            <p>Implement e-survey in a secured university MS form.</p>
+          </list-item>
+          <list-item>
+            <p>Ensure anonymity: we will not collect identifiable data</p>
+          </list-item>
+        </list>
+      </sec>
+      <sec id="ethical-considerations">
+        <title>Ethical considerations</title>
+        <list list-type="bullet">
+          <list-item>
+            <p>Submit protocol to Ain Shams institutional review board
+        (IRB).</p>
+          </list-item>
+          <list-item>
+            <p>No risk: survey of professionals knowledge with complete
+        anonymity.</p>
+          </list-item>
+          <list-item>
+            <p>Consent: will include brief information on purpose, voluntary
+        nature, and data use. Proceeding to the survey implies
+        consent.</p>
+          </list-item>
+          <list-item>
+            <p>Data storage: store annonymous data on encrypted
+        institutional servers.</p>
+          </list-item>
+        </list>
+      </sec>
+      <sec id="consent-text">
+        <title>Consent text</title>
+        <p>You are invited to participate in a research survey about
+    infertility tests and interventions. Participation is voluntary and
+    anonymous. The survey takes 10 minutes. Results will be reported in
+    aggregate only. By proceeding you give consent for your anonymous
+    responses to be used for research and publications.</p>
+      </sec>
+      <sec id="data-management">
+        <title>Data management</title>
+        <list list-type="bullet">
+          <list-item>
+            <p>Export data to R software.</p>
+          </list-item>
+          <list-item>
+            <p>Store raw data for three years per institutional policy.</p>
+          </list-item>
+        </list>
+      </sec>
+      <sec id="statistical-analysis-plan">
+        <title>Statistical analysis plan</title>
+        <list list-type="bullet">
+          <list-item>
+            <p>Descriptive</p>
+            <list list-type="bullet">
+              <list-item>
+                <p>Participant characteristics: frequencies/percentages for
+            categorical variables, mean ± SD or median (IQR) for
+            continuous variables.</p>
+              </list-item>
+              <list-item>
+                <p>Proportion correct for each knowledge item with 95%
+            CI.</p>
+              </list-item>
+              <list-item>
+                <p>Total knowledge score = sum(correct items). Transform to
+            percentage correct.</p>
+              </list-item>
+              <list-item>
+                <p>Categorize knowledge ( Q1 = High, Q2 = moderate, Q3 =
+            low, Q4 = very low)</p>
+              </list-item>
+            </list>
+          </list-item>
+          <list-item>
+            <p>Inferential</p>
+            <list list-type="bullet">
+              <list-item>
+                <p>Binomial Exact test.</p>
+              </list-item>
+              <list-item>
+                <p>Logistic regression: outcome = adequate knowledge (q1 and
+            q2) (binary) to estimate adjusted odds ratios for predictors
+            (years since qualification, practice type).</p>
+              </list-item>
+            </list>
+          </list-item>
+          <list-item>
+            <p>Missing data</p>
+            <list list-type="bullet">
+              <list-item>
+                <p>All fields of the e-survey will be rquired. This will
+            ensure a complete data set.</p>
+              </list-item>
+            </list>
+          </list-item>
+          <list-item>
+            <p>Statistical significance</p>
+            <list list-type="bullet">
+              <list-item>
+                <p>Two-sided tests; p&lt;0.05 considered significant.</p>
+              </list-item>
+            </list>
+          </list-item>
+        </list>
+      </sec>
+      <sec id="pilot-testing">
+        <title>Pilot testing</title>
+        <list list-type="bullet">
+          <list-item>
+            <p>Pilot with 10 respondents representative of target
+        population.</p>
+          </list-item>
+          <list-item>
+            <p>Assess completion time, item clarity, technical issues, and
+        initial distribution of responses.</p>
+          </list-item>
+          <list-item>
+            <p>Revise questionnaire and platform per pilot findings.</p>
+          </list-item>
+        </list>
+      </sec>
+      <sec id="limitation">
+        <title>Limitation</title>
+        <list list-type="bullet">
+          <list-item>
+            <p>Sampling bias due to the use of convenience sampling.</p>
+          </list-item>
+        </list>
+      </sec>
+      <sec id="dissemination-plan">
+        <title>Dissemination plan</title>
+        <list list-type="bullet">
+          <list-item>
+            <p>Publish in peer-reviewed journal and present at
+        conferences.</p>
+          </list-item>
+          <list-item>
+            <p>We will report the study according to the CHERRIES
+        checklist.</p>
+          </list-item>
+        </list>
+      </sec>
+      <sec id="timeline">
+        <title>Timeline</title>
+        <list list-type="bullet">
+          <list-item>
+            <p>Week 1: questionnaire drafting</p>
+          </list-item>
+          <list-item>
+            <p>Week 2: testing and final revision</p>
+          </list-item>
+          <list-item>
+            <p>Week 3–4: Ethics approval</p>
+          </list-item>
+          <list-item>
+            <p>Week 5–6: data collection</p>
+          </list-item>
+          <list-item>
+            <p>Week 7: data analysis</p>
+          </list-item>
+          <list-item>
+            <p>Week 8: manuscript preparation and dissemination</p>
+          </list-item>
+        </list>
+      </sec>
+    </sec>
+    <sec id="references">
+      <title>References</title>
+    </sec>
+  </body>
+  <back>
+</back>
+</article>

@@ -1,0 +1,186 @@
+---
+title: "Gynecologists’ knowledge of infertility practices not recommended by evidence-based guidelines: A cross-sectional e-survey protocol"
+bibliography: references.bib
+---
+
+# Study Protocol
+
+## Background and rationale
+
+The management of subfertile counples, including IVF/ICSI, involves a spectrum of diagnostic tests and therapeutic interventions. These pre-treatment evaluation and interventions usually require complex, resource-intensive procedures.
+
+Inadequate knowledge of the best available research evidence can lead to unnecessary procedures, patient distress, increased healthcare costs, and possible avoidable complications.
+
+Several tests and interventions used in the course of management of  infertility are discouraged by several international evidence-based guidelines issued by professional association such as ESHRE and ASRM. Assessing gynecologists’ knowledge of such practices helps design targeted de-implementation strategies and continuing medical education.
+
+## Objectives
+
+-   Primary objective: estimate the proportion of practicing gynecologists who correctly identify that a given test or intervention is **not** recommended by evidence-based guidelines.
+
+-   Secondary objectives
+
+    -   Identify physician characteristics associated with adequate knowledge.
+
+    -   Identify perceived barriers to guideline adherence
+
+    -   Identify preferred educational formats.
+
+## Study design
+
+Observational, cross-sectional survey using an anonymous and open e-survey. The web-based form will be distributed in December 2025 using the secured university MS forms.
+
+## Eligibility criteria
+
+-   Inclusion criteria
+
+    -   Medical doctors currently practicing as gynecologists in clinical practice in Egypt.
+
+    -   Agree to participate (implied consent by survey completion).
+
+-   Exclusion criteria
+
+    -   Residents and house officers.
+
+## Sampling and recruitment
+
+-   Convenience sample
+
+-   Recruitment procedure: visits to hospital departments, clinics, and Infertility centers to encourage to improve response rates.
+
+## Questionnaire development
+
+-   Questionnaire sections
+
+    -   Participant demographics and practice characteristics
+
+    -   Knowledge items about specific tests or interventions
+
+    -   Attitudes and barriers to guideline adherence
+
+    -   Sources of clinical information and preferred educational formats
+
+-   Tests and interventions
+
+    -   Routinely perform preimplantation genetic testing for aneuploidy screening on patients undergoing IVF
+
+    -   Routinely administer Progesterone for luteal phase support after IVF/ICSI.
+
+    -   Routinely perform assisted hatching on fresh embryos prior to transfer
+
+    -   Prescribe corticosteroids for patients undergoing IVF, those with a history of recurrent implantation failure, or those with recurrent pregnancy loss
+
+    -   Routinely perform sperm DNA fragmentation testing
+
+    -   Use the GnRH antagonist protocol for predicted high responders.
+
+    -   Routinely perform Endometrial receptivity testing
+
+    -   Routinely perform hysteroscopy before IVF
+
+    -   Follow a freeze-all strategy to minimize the risk of late-onset OHSS.
+
+    -   Prescribe IVIG for patients undergoing IVF, those with a history of recurrent implantation failure, or those with recurrent pregnancy loss
+
+    -   Prescribe leukemia inhibitory factor for patients undergoing IVF, those with a history of recurrent implantation failure, or those with recurrent pregnancy loss
+
+    -   Prescribe lymphocyte immunization therapy for patients undergoing IVF, those with a history of recurrent implantation failure, or those with recurrent pregnancy loss
+
+    -   Prescribe intralipid therapy for patients undergoing IVF, those with a history of recurrent implantation failure, or those with recurrent pregnancy loss
+
+## Pilot and content validation
+
+-   Draft questionnaire will be reviewed by two content experts (senior gynecologists) and one methodologist for face validity.
+
+-   Cognitive interviews with three target respondents to ensure clarity; revise accordingly.
+
+## Sample size calculation
+
+-   Primary outcome: proportion with correct knowledge of the non-recommended practices.
+
+-   Conservative default (no prior estimate): assume proportion = 50% (this assumption maximizes sample size). For 99% confidence interval with 10% margin of error: sample size is 167. We will adjust for expected nonresponse of 20%. Required invitations = 200
+
+## Data collection procedures
+
+-   Implement e-survey in a secured university MS form.
+
+-   Ensure anonymity: we will not collect identifiable data
+
+## Ethical considerations
+
+-   Submit protocol to Ain Shams institutional review board (IRB).
+
+-   No risk: survey of professionals knowledge with complete anonymity.
+
+-   Consent: will include brief information on purpose, voluntary nature, and data use. Proceeding to the survey implies consent.
+
+-   Data storage: store annonymous data on encrypted institutional servers.
+
+## Consent text
+
+You are invited to participate in a research survey about infertility tests and interventions. Participation is voluntary and anonymous. The survey takes 10 minutes. Results will be reported in aggregate only. By proceeding you give consent for your anonymous responses to be used for research and publications.
+
+## Data management
+
+-   Export data to R software.
+
+-   Store raw data for three years per institutional policy.
+
+## Statistical analysis plan
+
+-   Descriptive
+
+    -   Participant characteristics: frequencies/percentages for categorical variables, mean ± SD or median (IQR) for continuous variables.
+
+    -   Proportion correct for each knowledge item with 95% CI.
+
+    -   Total knowledge score = sum(correct items). Transform to percentage correct.
+
+    -   Categorize knowledge ( Q1 = High, Q2 = moderate, Q3 = low, Q4 = very low)
+
+-   Inferential
+
+    -   Binomial Exact test.
+
+    -   Logistic regression: outcome = adequate knowledge (q1 and q2) (binary) to estimate adjusted odds ratios for predictors (years since qualification, practice type).
+
+-   Missing data
+
+    -   All fields of the e-survey will be rquired. This will ensure a complete data set.
+
+-   Statistical significance
+
+    -   Two-sided tests; p\<0.05 considered significant.
+
+## Pilot testing
+
+-   Pilot with 10 respondents representative of target population.
+
+-   Assess completion time, item clarity, technical issues, and initial distribution of responses.
+
+-   Revise questionnaire and platform per pilot findings.
+
+## Limitation
+
+-   Sampling bias due to the use of convenience sampling.
+
+## Dissemination plan
+
+-   Publish in peer-reviewed journal and present at conferences.
+
+-   We will report the study according to the CHERRIES checklist.
+
+## Timeline
+
+-   Week 1: questionnaire drafting
+
+-   Week 2: testing and final revision
+
+-   Week 3–4: Ethics approval
+
+-   Week 5–6: data collection
+
+-   Week 7: data analysis
+
+-   Week 8: manuscript preparation and dissemination
+
+# References
