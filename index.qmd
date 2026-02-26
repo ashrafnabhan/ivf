@@ -7,7 +7,7 @@ bibliography: references.bib
 
 ## Background and rationale
 
-The management of subfertile couples, including IVF/ICSI, involves a spectrum of diagnostic tests and therapeutic interventions. These pre-treatment evaluation and interventions usually require complex, resource-intensive procedures. [@holt-kentwell2022]
+Management of subfertile couples, including IVF/ICSI, involves a spectrum of diagnostic tests and therapeutic interventions. These pre-treatment evaluation and interventions usually require complex, resource-intensive procedures. [@holt-kentwell2022]
 
 Inadequate knowledge of the best available research evidence can lead to unnecessary procedures, patient distress, increased healthcare costs, and possible avoidable complications. This can have negative repercussions on healthcare quality and equity, particularly in Low and Middle Income Countries [@albarqouni2023]
 
