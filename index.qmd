@@ -1,5 +1,5 @@
 ---
-title: "Gynecologists’ Knowledge of Non-Recommended Infertility Practices: A cross-sectional e-survey protocol"
+title: "Gynecologists’ Knowledge of Non-Recommended Infertility Practices: protocol of a cross-sectional e-survey "
 bibliography: references.bib
 ---
 
