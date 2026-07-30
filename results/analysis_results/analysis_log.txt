@@ -1,0 +1,261 @@
+Loaded 169 respondents, 27 variables.
+---------------------------------------------------------------------- 
+
+== Missing data per predictor ==
+                         variable n_missing
+age                           age         2
+sex                           sex         0
+pg_years                 pg_years         9
+degree                     degree         0
+subspecialty_rei subspecialty_rei         0
+provision               provision         0
+facility                 facility         0
+guideline_access guideline_access         0
+---------------------------------------------------------------------- 
+
+== Item-level % answered correctly (low to high) ==
+                    item n_correct n_total pct_correct
+         corticosteroids        33     169        19.5
+                lmwh_rif        44     169        26.0
+     elective_freeze_all        51     169        30.2
+ lymphocyte_immunization        72     169        42.6
+              intralipid        73     169        43.2
+             lif_therapy        82     169        48.5
+       assisted_hatching        90     169        53.3
+                    ivig       101     169        59.8
+    hysteroscopy_pre_ivf       103     169        60.9
+               sperm_dfi       110     169        65.1
+             ert_testing       114     169        67.5
+                   pgt_a       117     169        69.2
+     endometrial_scratch       122     169        72.2
+         gnrh_antagonist       143     169        84.6
+        progesterone_lps       159     169        94.1
+
+== Normality checks (Shapiro-Wilk) ==
+ variable     W  p_value
+      age 0.832 1.46e-12
+ pg_years 0.840 6.12e-12
+   kscore 0.963 1.74e-04
+age, pg_years, and kscore are all significantly non-normal (p < .05).
+Descriptives below use median (IQR); group comparisons use
+non-parametric tests (Wilcoxon rank-sum / Spearman) accordingly.
+
+== kscore summary ==
+Median (IQR): 9 ( 7 )
+Range: 0 - 15 
+
+== adequate distribution ==
+
+Inadequate   Adequate 
+        97         72 
+
+Inadequate   Adequate 
+      57.4       42.6 
+---------------------------------------------------------------------- 
+
+== Table 1: characteristics by adequate/inadequate group ==
+         variable                  level  Inadequate    Adequate p_value
+              age           median (IQR) 35.0 (11.5) 37.0 (15.2)   0.008
+              sex                 Female  53 (54.6%)  26 (36.1%)   0.026
+              sex                   Male  44 (45.4%)  46 (63.9%)      NA
+         pg_years           median (IQR) 11.0 (10.0) 14.0 (15.5)   0.020
+           degree No postgraduate degree  49 (50.5%)  23 (31.9%)   0.024
+           degree    Postgraduate degree  48 (49.5%)  49 (68.1%)      NA
+ subspecialty_rei                     No  78 (80.4%)  49 (68.1%)   0.097
+ subspecialty_rei                    Yes  19 (19.6%)  23 (31.9%)      NA
+        provision                     No  22 (22.7%)    5 (6.9%)   0.011
+        provision                    Yes  75 (77.3%)  67 (93.1%)      NA
+         facility          Multi-setting  53 (54.6%)  49 (68.1%)   0.084
+         facility                Private  10 (10.3%)   9 (12.5%)      NA
+         facility                 Public  34 (35.1%)  14 (19.4%)      NA
+ guideline_access                     No  33 (34.0%)  30 (41.7%)   0.392
+ guideline_access                    Yes  64 (66.0%)  42 (58.3%)      NA
+---------------------------------------------------------------------- 
+
+== Univariable associations with kscore (continuous outcome) ==
+         variable                                               comparison
+              age                                             Spearman rho
+              sex                                Wilcoxon (Male vs Female)
+         pg_years                                             Spearman rho
+           degree Wilcoxon (Postgraduate degree vs No postgraduate degree)
+ subspecialty_rei                                     Wilcoxon (Yes vs No)
+        provision                                     Wilcoxon (Yes vs No)
+         facility                                Kruskal-Wallis (3 groups)
+ guideline_access                                     Wilcoxon (Yes vs No)
+ estimate p_value
+    0.200   0.009
+    2.000   0.013
+    0.162   0.041
+    3.000   0.001
+    2.000   0.035
+    5.000   0.000
+       NA   0.056
+    0.000   0.646
+---------------------------------------------------------------------- 
+
+== Multicollinearity screen ==
+Correlation between age and pg_years (years since postgraduation): 0.987 
+These two variables are, unsurprisingly, almost perfectly collinear
+(age increases ~1:1 with years of experience). Including both in the
+same regression inflates their standard errors (VIF > 40, see below)
+and makes their individual coefficients uninterpretable, even though
+the model as a whole is still valid. The multivariable models below
+therefore use pg_years (professional experience) and DROP age; age
+is still examined in the univariable analysis above.
+---------------------------------------------------------------------- 
+
+== Multivariable linear regression: kscore ~ predictors (age excluded, see note above) ==
+
+Call:
+lm(formula = mv_formula_k, data = df)
+
+Residuals:
+   Min     1Q Median     3Q    Max 
+-9.788 -2.321  0.351  2.580  8.813 
+
+Coefficients:
+                           Estimate Std. Error t value Pr(>|t|)    
+(Intercept)                5.612667   1.001200   5.606 9.58e-08 ***
+sexMale                    0.861425   0.603818   1.427  0.15575    
+pg_years                  -0.007819   0.029986  -0.261  0.79463    
+degreePostgraduate degree  1.137617   0.648616   1.754  0.08147 .  
+subspecialty_reiYes        0.685992   0.699860   0.980  0.32856    
+provisionYes               2.779141   0.856374   3.245  0.00145 ** 
+facilityPrivate           -0.384154   1.000747  -0.384  0.70162    
+facilityPublic            -0.439110   0.701538  -0.626  0.53231    
+guideline_accessYes       -0.795372   0.605889  -1.313  0.19126    
+---
+Signif. codes:  0 '***' 0.001 '**' 0.01 '*' 0.05 '.' 0.1 ' ' 1
+
+Residual standard error: 3.577 on 151 degrees of freedom
+  (9 observations deleted due to missingness)
+Multiple R-squared:  0.1706,	Adjusted R-squared:  0.1266 
+F-statistic: 3.881 on 8 and 151 DF,  p-value: 0.0003458
+
+
+-- Variance Inflation Factors (check multicollinearity) --
+                     GVIF Df GVIF^(1/(2*Df))
+sex              1.135267  1        1.065489
+pg_years         1.252504  1        1.119153
+degree           1.280378  1        1.131538
+subspecialty_rei 1.148336  1        1.071604
+provision        1.247987  1        1.117133
+facility         1.338576  2        1.075625
+guideline_access 1.075827  1        1.037221
+
+-- Residual normality check --
+kscore itself is right/left-skewed (Shapiro p = 0.000174 ), but OLS validity depends on
+the MODEL RESIDUALS being approximately normal, not the raw outcome.
+Shapiro-Wilk on model residuals: W = 0.995 , p = 0.84 
+Residuals do not significantly depart from normality, so OLS
+coefficients/p-values below are used as reported (see QQ plot too).
+null device 
+          1 
+
+NOTE: provision_duration was excluded from the main model above
+because it is only recorded for respondents with provision == 'Yes'
+(structural missingness). A sensitivity analysis restricted to
+providers only is shown next.
+
+-- Sensitivity model (providers only, n = 142 ) --
+
+Call:
+lm(formula = sens_formula, data = df_providers)
+
+Residuals:
+   Min     1Q Median     3Q    Max 
+-9.307 -1.935 -0.024  2.057  7.825 
+
+Coefficients:
+                                     Estimate Std. Error t value Pr(>|t|)    
+(Intercept)                           8.37482    0.89380   9.370 4.23e-16 ***
+sexMale                               0.54637    0.64379   0.849  0.39770    
+pg_years                             -0.07193    0.03938  -1.826  0.07019 .  
+degreePostgraduate degree             0.58453    0.68487   0.853  0.39504    
+subspecialty_reiYes                   0.82550    0.71555   1.154  0.25086    
+facilityPrivate                      -0.39114    1.06373  -0.368  0.71372    
+facilityPublic                       -0.21547    0.77802  -0.277  0.78229    
+guideline_accessYes                  -0.30548    0.65619  -0.466  0.64236    
+provision_durationFive to ten years   1.29481    0.74674   1.734  0.08541 .  
+provision_durationMore than 10 years  2.51508    0.91336   2.754  0.00678 ** 
+---
+Signif. codes:  0 '***' 0.001 '**' 0.01 '*' 0.05 '.' 0.1 ' ' 1
+
+Residual standard error: 3.457 on 124 degrees of freedom
+  (8 observations deleted due to missingness)
+Multiple R-squared:  0.1019,	Adjusted R-squared:  0.03675 
+F-statistic: 1.564 on 9 and 124 DF,  p-value: 0.1333
+
+---------------------------------------------------------------------- 
+
+NOTE: logistic regression (below) makes no normality assumption on
+predictors or outcome - the non-normality of age/pg_years/kscore
+noted above does not affect this model.
+
+== Multivariable logistic regression: adequate ~ predictors (age excluded, see note above) ==
+
+Call:
+glm(formula = mv_formula_a, family = binomial, data = df)
+
+Coefficients:
+                          Estimate Std. Error z value Pr(>|z|)  
+(Intercept)               -1.67546    0.66939  -2.503   0.0123 *
+sexMale                    0.76957    0.36715   2.096   0.0361 *
+pg_years                   0.02162    0.01819   1.189   0.2346  
+degreePostgraduate degree  0.35436    0.38594   0.918   0.3585  
+subspecialty_reiYes        0.50044    0.41436   1.208   0.2271  
+provisionYes               0.97641    0.58266   1.676   0.0938 .
+facilityPrivate            0.13283    0.60598   0.219   0.8265  
+facilityPublic            -0.34406    0.42422  -0.811   0.4173  
+guideline_accessYes       -0.68700    0.37335  -1.840   0.0658 .
+---
+Signif. codes:  0 '***' 0.001 '**' 0.01 '*' 0.05 '.' 0.1 ' ' 1
+
+(Dispersion parameter for binomial family taken to be 1)
+
+    Null deviance: 219.78  on 159  degrees of freedom
+Residual deviance: 197.72  on 151  degrees of freedom
+  (9 observations deleted due to missingness)
+AIC: 215.72
+
+Number of Fisher Scoring iterations: 4
+
+
+-- Odds ratios (exponentiated coefficients) --
+# A tibble: 9 x 7
+  term                 odds_ratio std.error statistic p.value conf.low conf.high
+  <chr>                     <dbl>     <dbl>     <dbl>   <dbl>    <dbl>     <dbl>
+1 (Intercept)               0.187     0.669    -2.50    0.012    0.046     0.656
+2 sexMale                   2.16      0.367     2.10    0.036    1.06      4.49 
+3 pg_years                  1.02      0.018     1.19    0.235    0.986     1.06 
+4 degreePostgraduate ~      1.42      0.386     0.918   0.359    0.668     3.05 
+5 subspecialty_reiYes       1.65      0.414     1.21    0.227    0.734     3.75 
+6 provisionYes              2.66      0.583     1.68    0.094    0.892     9.12 
+7 facilityPrivate           1.14      0.606     0.219   0.826    0.342     3.78 
+8 facilityPublic            0.709     0.424    -0.811   0.417    0.305     1.62 
+9 guideline_accessYes       0.503     0.373    -1.84    0.066    0.238     1.04 
+
+-- Variance Inflation Factors --
+                     GVIF Df GVIF^(1/(2*Df))
+sex              1.146747  1        1.070863
+pg_years         1.252638  1        1.119213
+degree           1.228437  1        1.108349
+subspecialty_rei 1.140265  1        1.067832
+provision        1.143763  1        1.069468
+facility         1.290861  2        1.065908
+guideline_access 1.123802  1        1.060095
+
+-- Model fit --
+Null deviance: 219.8 on 159 df
+Residual deviance: 197.7 on 151 df
+AIC: 215.7 
+In-sample classification accuracy (cutoff 0.5): 63.7 %
+
+Confusion matrix:
+            Observed
+Predicted    Inadequate Adequate
+  Adequate           25       38
+  Inadequate         64       33
+---------------------------------------------------------------------- 
+
+Analysis complete. Tables saved to 'outputs/tables', figures to 'outputs/figures'.

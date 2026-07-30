@@ -1,0 +1,16 @@
+"item","n_correct","n_total","pct_correct"
+"corticosteroids",33,169,19.5
+"lmwh_rif",44,169,26
+"elective_freeze_all",51,169,30.2
+"lymphocyte_immunization",72,169,42.6
+"intralipid",73,169,43.2
+"lif_therapy",82,169,48.5
+"assisted_hatching",90,169,53.3
+"ivig",101,169,59.8
+"hysteroscopy_pre_ivf",103,169,60.9
+"sperm_dfi",110,169,65.1
+"ert_testing",114,169,67.5
+"pgt_a",117,169,69.2
+"endometrial_scratch",122,169,72.2
+"gnrh_antagonist",143,169,84.6
+"progesterone_lps",159,169,94.1

@@ -1,0 +1,16 @@
+"variable","level","Inadequate","Adequate","p_value"
+"age","median (IQR)","35.0 (11.5)","37.0 (15.2)",0.008
+"sex","Female","53 (54.6%)","26 (36.1%)",0.026
+"sex","Male","44 (45.4%)","46 (63.9%)",NA
+"pg_years","median (IQR)","11.0 (10.0)","14.0 (15.5)",0.02
+"degree","No postgraduate degree","49 (50.5%)","23 (31.9%)",0.024
+"degree","Postgraduate degree","48 (49.5%)","49 (68.1%)",NA
+"subspecialty_rei","No","78 (80.4%)","49 (68.1%)",0.097
+"subspecialty_rei","Yes","19 (19.6%)","23 (31.9%)",NA
+"provision","No","22 (22.7%)","5 (6.9%)",0.011
+"provision","Yes","75 (77.3%)","67 (93.1%)",NA
+"facility","Multi-setting","53 (54.6%)","49 (68.1%)",0.084
+"facility","Private","10 (10.3%)","9 (12.5%)",NA
+"facility","Public","34 (35.1%)","14 (19.4%)",NA
+"guideline_access","No","33 (34.0%)","30 (41.7%)",0.392
+"guideline_access","Yes","64 (66.0%)","42 (58.3%)",NA

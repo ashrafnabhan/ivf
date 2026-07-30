@@ -1,0 +1,10 @@
+"term","odds_ratio","std.error","statistic","p.value","conf.low","conf.high"
+"(Intercept)",0.187,0.669,-2.503,0.012,0.046,0.656
+"sexMale",2.159,0.367,2.096,0.036,1.059,4.493
+"pg_years",1.022,0.018,1.189,0.235,0.986,1.06
+"degreePostgraduate degree",1.425,0.386,0.918,0.359,0.668,3.052
+"subspecialty_reiYes",1.649,0.414,1.208,0.227,0.734,3.752
+"provisionYes",2.655,0.583,1.676,0.094,0.892,9.117
+"facilityPrivate",1.142,0.606,0.219,0.826,0.342,3.775
+"facilityPublic",0.709,0.424,-0.811,0.417,0.305,1.625
+"guideline_accessYes",0.503,0.373,-1.84,0.066,0.238,1.036

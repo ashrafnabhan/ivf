@@ -1,0 +1,4 @@
+"variable","W","p_value"
+"age",0.832,1.46e-12
+"pg_years",0.84,6.12e-12
+"kscore",0.963,0.000174

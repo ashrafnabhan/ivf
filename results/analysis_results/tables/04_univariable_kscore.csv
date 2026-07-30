@@ -1,0 +1,9 @@
+"variable","comparison","estimate","p_value"
+"age","Spearman rho",0.2,0.009
+"sex","Wilcoxon (Male vs Female)",2,0.013
+"pg_years","Spearman rho",0.162,0.041
+"degree","Wilcoxon (Postgraduate degree vs No postgraduate degree)",3,0.001
+"subspecialty_rei","Wilcoxon (Yes vs No)",2,0.035
+"provision","Wilcoxon (Yes vs No)",5,0
+"facility","Kruskal-Wallis (3 groups)",NA,0.056
+"guideline_access","Wilcoxon (Yes vs No)",0,0.646
